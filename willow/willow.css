@@ -1,0 +1,128 @@
+/*
+ * Willow, a Python framework for experimental economics. Copyright (c)
+ * 2009, George Mason University. All rights reserved. Redistribution
+ * allowed under certain conditions; see file COPYING.txt
+ */
+
+.hidden {
+    display: none;
+}
+
+
+.popup {
+   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+   font-size: 13px;
+   width:400px;
+   left:0;
+   right:0;
+   margin: auto;
+   border-style:solid;
+   border-width:2px;
+   border-color:blue;
+   padding:5px;
+   color:red;
+   font-weight:bold;
+   z-index:2;
+}
+
+/*
+ * www.456bereastreet.com
+ */
+
+#wrap 
+{
+	width:1000px;
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#rightColumn
+{
+	float:right;
+	width:500px;
+}
+
+#leftColumn
+{
+	float:left;
+	width:500px;
+}
+
+#contract_container
+{
+    height:240px;
+    width:350px;
+    left:0; 
+    right:0; 
+    margin:auto;
+    text-align:center;
+}
+
+/*
+ * Read more at http://www.askdavetaylor.com/how_do_i_change_the_appearance_of_a_submit_button.html#2XcGmpDXj87P5xYc.99 
+ */
+
+.myButton 
+{ 
+    background-color: #fff; 
+    font-size: 80%;  
+    font-weight: bold; 
+}
+
+.warning
+{
+    color:red;
+    text-align:center;
+}
+
+.select
+{
+    background-color: #fff;
+    border:2px solid #ced6e9;
+    border-radius: 4px;
+}
+
+/*
+ * http://coding.smashingmagazine.com/2008/08/13/top-10-css-table-designs/
+ */
+
+
+
+.hor-minimalist-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	background: #FFFFFF;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+.hor-minimalist-b th
+{
+	font-size: 15px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+.hor-minimalist-b tbody td
+
+{
+	border-bottom: 1px solid #ccc;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	color: #669;
+	height: 25px;
+	padding: 6px 8px;
+}
+
+
+.hor-minimalist-b tbody tr:hover td
+{
+	color: #009;
+	cursor: pointer;
+}
+*
